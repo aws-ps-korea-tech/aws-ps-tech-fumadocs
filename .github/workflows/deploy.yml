@@ -29,6 +29,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npx fumadocs-mdx && npx next build
+      - name: Decode URL-encoded paths for GitHub Pages
+        run: bash scripts/decode-paths.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
