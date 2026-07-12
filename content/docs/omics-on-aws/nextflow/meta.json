@@ -1,1 +1,7 @@
-{"title": "Nextflow"}
+{
+  "title": "Nextflow",
+  "defaultOpen": true,
+  "pages": [
+    "..."
+  ]
+}

@@ -1,1 +1,7 @@
-{"title": "Hail on AWS"}
+{
+  "title": "Hail on AWS",
+  "defaultOpen": true,
+  "pages": [
+    "..."
+  ]
+}

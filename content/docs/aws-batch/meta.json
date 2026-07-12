@@ -1,1 +1,7 @@
-{"title": "AWS Batch"}
+{
+  "title": "AWS Batch",
+  "defaultOpen": true,
+  "pages": [
+    "..."
+  ]
+}
