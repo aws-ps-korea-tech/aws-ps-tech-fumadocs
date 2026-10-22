@@ -1,7 +1,12 @@
 {
-  "title": "대학 고객을 위한 AWS 길라잡이",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "_assets",
+    "aws-2",
+    "aws-h9c",
+    "ec2",
+    "aws",
+    "otp",
+    "쉽게-따라하는-연구실-계정-관리",
+    "유용한-링크들-모음"
   ]
 }

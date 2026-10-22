@@ -1,7 +1,15 @@
 {
-  "title": "Omics on AWS",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "_assets",
+    "alphagenome-alphamissense-on-aws",
+    "aws-healthomics",
+    "hail-on-aws",
+    "hpp-production-workflows",
+    "multi-modal-analysis",
+    "nextflow",
+    "amazon-genomics-cli-vdj",
+    "aws-healthomics-cicd",
+    "aws-healthomics-ksh",
+    "how-task-concurrency-limits-increase-storage-costs-in-aws-healthomics-workflow-runs"
   ]
 }

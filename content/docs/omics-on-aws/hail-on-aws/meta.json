@@ -1,7 +1,10 @@
 {
-  "title": "Hail on AWS",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "_assets",
+    "amazon-emr-on-ec2",
+    "aws-glue",
+    "hail-with-amazon-emr-notebook",
+    "quickstart-hail-english",
+    "quickstart-hail-korean"
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "ai-agent-memory-on-aws",
+    "amazon-bio-discovery-ai",
+    "aws",
+    "aws-batch",
+    "aws-blast-performance-testing",
+    "data-transfer",
+    "decision-models-on-aws",
+    "draft-gbrain",
+    "egovframework-on-aws",
+    "fsx-for-lustre",
+    "genome-data-delivery-portal-on-aws",
+    "ncbi-blast-on-aws",
+    "omics-on-aws",
+    "s3"
+  ]
+}

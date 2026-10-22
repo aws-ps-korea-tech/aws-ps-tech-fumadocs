@@ -1,7 +1,8 @@
 ---
 title: "실전 트러블슈팅 가이드"
-sidebar_position: 11
 ---
+
+# 실전 트러블슈팅 가이드
 
 # HPP Production Workflows - 실전 트러블슈팅 가이드
 
@@ -98,7 +99,7 @@ fi
 ### 문제 3: WDL Output 섹션의 외부 참조
 
 **문제가 있는 코드:**
-```text
+```wdl
 output {
     File extractedRead = flatten([glob("output_final/*"), [readFile]])[0]
     Int fileSizeGB = read_int("outputsize")
@@ -110,7 +111,7 @@ output {
 - `glob("output_final/*")`가 빈 배열을 반환하면 외부 파일 사용
 
 **해결 방법:**
-```text
+```wdl
 output {
     File extractedRead = glob("output_final/*")[0]  # 폴백 제거
     Int fileSizeGB = read_int("outputsize")
@@ -260,7 +261,7 @@ Task failed with exit code 137 (SIGKILL - out of memory)
 **해결 방법:**
 
 **동적 메모리 할당:**
-```text
+```wdl
 task hifiasm_assembly {
     input {
         File hifi_reads
