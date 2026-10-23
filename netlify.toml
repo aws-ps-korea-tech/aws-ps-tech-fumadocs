@@ -1,0 +1,8 @@
+# Netlify deploy config — Fumadocs (Next static export)
+# Root base path (NEXT_PUBLIC_BASE_PATH unset) so public/_redirects gives real 301s.
+[build]
+  command = "npx fumadocs-mdx && npx next build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
