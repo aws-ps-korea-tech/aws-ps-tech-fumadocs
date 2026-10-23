@@ -4,6 +4,9 @@ import type * as PageTree from "fumadocs-core/page-tree";
 import { source } from "@/app/source";
 import { TABS, tabForBook } from "@/lib/tabs";
 
+// Plain <img> does not get basePath prepended automatically (needed on GitHub Pages sub-path).
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 // First URL segment after /docs for a tree node (folder index, or its first page).
 function bookOf(node: PageTree.Node): string | undefined {
   const url = (n: PageTree.Node): string | undefined => {
@@ -56,7 +59,15 @@ export default async function Layout({
   });
 
   return (
-    <DocsLayout tree={tree} tabs={tabs} nav={{ title: "AWS PS Tech" }}>
+    <DocsLayout tree={tree} tabs={tabs} nav={{
+        title: (
+          <>
+            <img className="ps-logo-light" src={`${BASE}/brand/logo-light-mode.png`} alt="AWS" height={22} width={37} />
+            <img className="ps-logo-dark" src={`${BASE}/brand/logo-dark-mode.png`} alt="AWS" height={22} width={37} />
+            <span>AWS Korea Public Sector SA Team</span>
+          </>
+        ),
+      }}>
       {children}
     </DocsLayout>
   );

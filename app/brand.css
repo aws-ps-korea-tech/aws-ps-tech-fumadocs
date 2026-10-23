@@ -1,0 +1,41 @@
+/* Brand settings carried over from the BookStack site (primary #206ea7, Amazon Ember + Noto Sans KR). */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url('https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --font-sans: 'Amazon Ember', 'Noto Sans KR', ui-sans-serif, system-ui, sans-serif;
+  --color-fd-primary: #206ea7;
+  --color-fd-primary-foreground: #ffffff;
+  --color-fd-ring: #206ea7;
+}
+.dark {
+  --color-fd-primary: #429fe3;
+  --color-fd-primary-foreground: #0b1a26;
+  --color-fd-ring: #429fe3;
+}
+body { font-family: var(--font-sans); }
+
+.ps-disclaimer {
+  background: #fff3cd;
+  border-bottom: 1px solid #ffc107;
+  color: #664d03;
+  font-size: 13px;
+  padding: 8px 16px;
+  text-align: center;
+  line-height: 1.4;
+}
+.ps-disclaimer a { color: #664d03; text-decoration: underline; }
+.dark .ps-disclaimer { background: #3d3100; border-bottom-color: #8a6d00; color: #ffe69c; }
+.dark .ps-disclaimer a { color: #ffe69c; }
+
+.ps-site-footer { padding: 24px 16px; text-align: center; font-size: 13px; color: var(--color-fd-muted-foreground); }
+.ps-site-footer a { text-decoration: underline; }
+.ps-logo-light { display: inline-block; }
+.ps-logo-dark { display: none; }
+.dark .ps-logo-light { display: none; }
+.dark .ps-logo-dark { display: inline-block; }
