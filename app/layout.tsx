@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://aws-ps-tech-fumadocs.vercel.app"),
   title: {
     template: "%s | AWS PS Tech",
     default: "AWS PS Tech",
