@@ -1,7 +1,9 @@
 {
-  "title": "AWS BLAST Performance Testing",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "cost-analysis",
+    "ebs",
+    "ebs-snapshot",
+    "efs-vs-fsx-for-lustre",
+    "아키텍처-개요"
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "title": "Multi-modal Analysis",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "_assets",
+    "store-multimodal-data-with-purpose-built-health-ai-services",
+    "소개-및-실습-준비"
   ]
 }

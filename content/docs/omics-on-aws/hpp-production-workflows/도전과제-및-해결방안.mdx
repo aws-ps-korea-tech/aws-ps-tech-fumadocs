@@ -1,7 +1,8 @@
 ---
 title: "도전과제 및 해결방안"
-sidebar_position: 8
 ---
+
+# 도전과제 및 해결방안
 
 # 도전과제 및 해결방안
 
@@ -52,7 +53,7 @@ Hifiasm 어셈블리 단계에서 메모리 부족 오류:
 ```
 
 *해결 전략:*
-```text
+```wdl
 # 동적 메모리 할당 패턴
 runtime {
     memory: if (file_size_gb > 100) then "512 GB" else "256 GB"

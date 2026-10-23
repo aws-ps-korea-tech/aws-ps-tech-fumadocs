@@ -1,0 +1,7 @@
+{
+  "pages": [
+    "_assets",
+    "1-alphamissense-7100-missense-amazon-athena",
+    "2-alphagenome-aws-gpu-sagemaker-api"
+  ]
+}

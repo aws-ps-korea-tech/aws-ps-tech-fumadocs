@@ -1,7 +1,23 @@
 {
-  "title": "AWS HealthOmics",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "_assets",
+    "aws-healthomics",
+    "aws-healthomics-annotation",
+    "aws-healthomics-fastq-to-vcf-annotation",
+    "aws-healthomics-nf-coresarek-390",
+    "aws-healthomics-run-analyzer",
+    "aws-healthomics-storage",
+    "aws-healthomics-troubleshooting",
+    "call-caching",
+    "lessons-learned-warp-exomegermlinesinglesample-aws-healthomics",
+    "nf-core-rnaseq",
+    "nf-core-scrnaseq",
+    "nf-core-spatialvi",
+    "run-analzyer",
+    "running-nf-coresarek-390-on-aws-healthomics",
+    "vpc-connected-workflows-accessing-the-internet-and-cross-region-s3-from-workflows",
+    "vpc-connected-workflows-s3",
+    "wdl-hifi-human-wgs-wdl",
+    "몇-가지-기능과-알아둘-것들"
   ]
 }

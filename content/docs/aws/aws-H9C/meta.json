@@ -1,7 +1,7 @@
 {
-  "title": "연구자를 위한 AWS 서비스",
-  "defaultOpen": true,
   "pages": [
-    "..."
+    "_assets",
+    "amazon-lightsail-for-research",
+    "research-and-engineering-studio-on-aws"
   ]
 }
