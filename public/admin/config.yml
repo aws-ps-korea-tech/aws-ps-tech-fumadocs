@@ -1,7 +1,7 @@
 # Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
-  repo: aws-ps-korea-tech/fumadocs
+  repo: aws-ps-korea-tech/aws-ps-tech-fumadocs
   branch: main
   auth_type: pkce
   base_url: https://auth.decapbridge.com
@@ -24,7 +24,7 @@ auth:
   avatar_url_claim: avatar_url
 
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-site_url: https://aws-ps-korea-tech.github.io/fumadocs
+site_url: https://aws-ps-korea-tech.github.io/aws-ps-tech-fumadocs
 
 media_folder: "content/docs/_media"
 public_folder: "/_media"
