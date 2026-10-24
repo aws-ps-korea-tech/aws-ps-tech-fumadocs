@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   description: "AWS Korea Public Sector SA Team 기술 문서 모음",
 };
 
+// Static export has no /api/search server route, so the search dialog loads the
+// prebuilt index emitted by app/static.json/route.ts. The URL must carry the
+// same basePath the site is served under (root on Vercel, /aws-ps-tech-fumadocs
+// on GitHub Pages).
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ko" suppressHydrationWarning>
@@ -22,7 +28,16 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           최신 정보는{" "}
           <a href="https://docs.aws.amazon.com" target="_blank" rel="noopener">AWS 공식 문서</a>를 참고하세요.
         </div>
-        <RootProvider>{children}</RootProvider>
+        <RootProvider
+          search={{
+            options: {
+              type: "static",
+              api: `${BASE}/static.json`,
+            },
+          }}
+        >
+          {children}
+        </RootProvider>
         <footer className="ps-site-footer">
           <a href="https://aws.amazon.com/ko/privacy/" target="_blank" rel="noopener">Privacy Policy</a>
         </footer>
