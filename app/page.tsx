@@ -4,8 +4,8 @@ export default function HomePage() {
   return (
     <main className="mx-auto flex min-h-screen max-w-4xl flex-col justify-center gap-8 px-4 py-16">
       <header>
-        <h1 className="text-4xl font-bold mb-2">AWS PS Tech Korea 문서</h1>
-        <p className="text-lg text-fd-muted-foreground">AWS Professional Services Korea 기술 문서. 분야를 고르세요.</p>
+        <h1 className="text-4xl font-bold mb-2">AWS Korea Public Sector SA Team</h1>
+        <p className="text-lg text-fd-muted-foreground">AWS Korea Public Sector SA Team 기술 문서. 분야를 고르세요.</p>
       </header>
       <div className="grid gap-8 sm:grid-cols-2">
       <section className="text-left">
