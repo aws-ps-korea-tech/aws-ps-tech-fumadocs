@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | AWS Korea Public Sector SA Team",
     default: "AWS Korea Public Sector SA Team",
   },
-  description: "AWS Professional Services Korea 기술 문서 모음",
+  description: "AWS Korea Public Sector SA Team 기술 문서 모음",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
