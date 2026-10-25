@@ -11,6 +11,7 @@
     "egovframework-on-aws",
     "fsx-for-lustre",
     "genome-data-delivery-portal-on-aws",
+    "gxp-on-aws",
     "ncbi-blast-on-aws",
     "omics-on-aws",
     "s3"

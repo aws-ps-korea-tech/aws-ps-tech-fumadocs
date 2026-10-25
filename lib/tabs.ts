@@ -8,7 +8,8 @@ export const TABS: { id: string; title: string; url: string; books: string[] }[]
       "aws",
       "s3",
       "data-transfer",
-      "fsx-for-lustre"
+      "fsx-for-lustre",
+      "gxp-on-aws"
     ]
   },
   {
